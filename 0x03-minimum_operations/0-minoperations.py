@@ -4,6 +4,7 @@ calculates the fewest number of Copy All and Paste operations needed
 to result in exactly n H characters in a file
 """
 
+
 def minOperations(n):
     if n < 2:
         return 0
